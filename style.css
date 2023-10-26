@@ -45,3 +45,21 @@
     padding: 10px;
   }
   
+  .bakgrunnsbilde {
+    height: 605px;
+    z-index: -1;
+    width: 97%;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: inset;
+    border-color:rgb(37, 108, 240);
+}
+
+body {
+    background-color: rgb(5, 15, 27);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px);
+    padding: 0;
+    margin: 0;
+}
