@@ -1,65 +1,109 @@
 .topnav {
-    background-color:  #204ca4;
-    overflow: hidden;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 97%;
-    border-width: 10px;
-    border-style: outset;
-    border-color:rgb(37, 108, 240);
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Inconsolata', monospace;
-    font-size: 20px;
-    letter-spacing: 1.5px;
-  }
-  
-  .topnav a:hover {
-    background-color: #f2f2f2;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color:  rgb(5, 15, 27);
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px);
-    color: white;
-  }
+  background-color:  #204ca4;
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 97%;
+  border-width: 10px;
+  border-style: outset;
+  border-color:rgb(37, 108, 240);
+}
 
-  .hovedtittel {
-    position: absolute;
-    font-size: 60px;
-    background-color: rgba(0, 0, 0, 0.842);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Inconsolata', monospace;
-    white-space: nowrap;
-    padding: 10px;
-  }
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
 
-  .bakgrunnsbilde {
-    height: 605px;
-    z-index: -1;
-    width: 97%;
-    position: relative; 
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 10px;
-    border-style: inset;
-    border-color:rgb(37, 108, 240);
+.topnav a:hover {
+  background-color: rgb(242, 242, 242);
+  color: black;
+}
+
+.topnav a.active {
+  background-color:  rgb(5, 15, 27);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px);
+  color: white;
+}
+
+.bakgrunnsbilde {
+  height: 605px;
+  z-index: -1;
+  width: 97%;
+  position: relative; 
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: inset;
+  border-color:rgb(37, 108, 240);
 }
 
 body {
-    background-color: rgb(5, 15, 27);
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px);
-    padding: 0;
-    margin: 0;
+  background-color: rgb(5, 15, 27);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px);
+  padding: 0;
+  margin: 0;
+}
+
+.hovedtittel {
+  position: absolute;
+  font-size: 60px;
+  background-color: rgba(0, 0, 0, 0.842);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Inconsolata', monospace;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(37, 108, 240);
+  letter-spacing: 1.5px;  
+}
+
+
+h1, p {
+color: white;
+font-family: 'Inconsolata', monospace;
+}
+
+.overskrift {
+font-size: 40px;
+}
+
+p {
+font-size: 20px;
+text-align: left !important;
+font-size: 30px;
+}
+
+.list_frame {
+border-left: outset #f2f2f2 10px;
+}
+
+li {
+text-align: left;
+color: white;
+font-size: 28px;
+font-family: 'Inconsolata', monospace;
+}
+
+.list {
+margin: 0 auto; 
+width: 97%; 
+}
+
+.tekstboks {
+background-color: rgba(0, 0, 0, 0.5);
+width: 97%;
+margin: 0 auto;
 }
