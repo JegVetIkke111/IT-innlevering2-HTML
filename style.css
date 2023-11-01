@@ -123,7 +123,7 @@ margin: 0 auto;
 }
 
 .fremvisningsbilde {
-  height: 100px;
-  width: 100px;
+  height: 400px;
+  width: 700px;
   border: outset rgb(37, 108, 240) 2px;
 }
