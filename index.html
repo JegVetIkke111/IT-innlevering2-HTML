@@ -46,16 +46,19 @@
     <h1 class="overskrift" id="attribute">Attribute</h1>
     <div class="tekstboks">
         <p>Alle elementer kan også ha såkalte “attributes” som inneholder ekstra informasjon om elementet som ikke vil faktisk vises i innholdet. Her er et eksempel på dette:</p>
+        <img src="https://media.discordapp.net/attachments/1158740468868325376/1169329618310926437/Skjermbilde_2023-10-30_144715.png?ex=65550212&is=65428d12&hm=77cc52be813b7e3913f196208b0935afc41a56747a4cd371dc2e8a7257eb3e21&=&width=768&height=433">
         <p>Her er “class” navnet på attributen og “hovedoverskrift” er verdien på attributen. Denne attributen er vanligvis brukt for å lage en selektor til bruk i CSS. Class-attributen gir nemlig elementet en ikke-unik identifikator, som gjør at hvis man bruker dette som en selektor, kan flere elementer benytte seg av det. Id-attributen er et annet eksempel, som gjør kun ett element om til en unik selektor. Det er også slik at attributer alltid blir spesifisert i start-taggen slik som i eksemplet. Samtidig er det noen attributer som ikke har noen verdi, slik som “required”. For de som inkluderer verdi må dette alltid legges til: Mellomrom mellom attributen og navnet på elementet eller forrige attribute hvis det er flere attributer, navnet på attributen med et er lik tegn etter på og attibutens verdi omsluttet av hermetegn. Noen andre eksempler på attributer er src-attributen, href-attributen og alt-attributen.</p>
     </div>
     <h1 class="overskrift" id="nesting">Nesting</h1>
     <div class="tekstboks">
         <p>Alle HTML-elementer kan bli såkalt “nested” og dette er noe alle HTML-dokumenter inneholder. “Nesting” betyr nemlig at man legger elementer inn i andre elementer. Her er et eksempel på dette:</p>
+        <img src="https://media.discordapp.net/attachments/1158740468868325376/1169329618105421854/Skjermbilde_2023-10-30_180733.png?ex=65550212&is=65428d12&hm=5df133a0c191a8a6433ff03ad104e3354c9943dda65fb3b41ddd5cad85994a0f&=&width=688&height=425">
         <p>Her er b-elementet lagt inne hos innholdet til p-elementet for å skape fet skrift i avsnittet. Det er imidlertid viktig at dette gjøres riktig. De må nemlig åpnes og lukkes på en måte slik at de er på tydelig vis er på utsiden eller innsiden av hverandre. I eksempelet ovenfor begynte vi med en p-start-tagg som deretter fulgte en b-start-tagg. Dette gjør at man må legge til b-slutt-taggen først og deretter p-start-taggen. Logikken kan sammenlignes med at når man legger en mindre boks inn i en større boks, må man ha igjen den innerste boksen før den ytterste boksen. Som sagt, finnes dette i alle HTML-dokument. Det har seg nemlig slik at html-elementet er roten og definerer hele HTML-dokumentet. Alle andre elementer, bortsett fra &lt;!DOCTYPE html&gt; befinner seg mellom start-taggen og slutt-taggen til html-elementet.</p>
     </div>
     <h1 class="overskrift" id="void">Void</h1>
     <div class="tekstboks">
         <p>Noen elementer har ikke innhold eller slutt-tagger og kalles dermed “void elements”. Et eksempel på dette er img-elementet: </p>
+        <img src="https://media.discordapp.net/attachments/1158740468868325376/1169329617836982372/Skjermbilde_2023-10-30_185929.png?ex=65550211&is=65428d11&hm=0340cce142e047302549e5ed6ef463858d5061abb320c2308c079dd65dc8c7a4&=&width=803&height=420">
         <p>Denne har to attributer, men har ingen slutt-tag og ingen form for indre innhold. Dette er fordi img-elementet ikke omslutter innhold for å kunne påvirke det, men heller så er formålet at den skal bygge inn et bilde i HTML-dokumentet, der den dukker opp. Andre eksempler på void-element er meta-elementet, br-elementet og source-elementet.</p>
     </div>
 </body>
