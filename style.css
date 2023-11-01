@@ -121,3 +121,8 @@ a:visited {
 a:hover {
   color: rgb(37, 108, 240);
 }
+
+.fremvisningsbilde {
+  height: 100px;
+  width: 100px;
+}
