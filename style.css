@@ -110,7 +110,7 @@ margin: 0 auto;
 }
 
 a:link {
-  color: rgb(37, 108, 240);;
+  color: rgb(37, 108, 240);
 }
 
 a:visited {
@@ -120,13 +120,13 @@ a:visited {
 }
 
 a:hover {
-  color: red;
+  color:red;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: yellow;
+  color: red;
   background-color: transparent;
   text-decoration: underline;
 }
