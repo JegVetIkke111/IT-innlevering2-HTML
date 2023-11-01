@@ -125,4 +125,5 @@ a:hover {
 .fremvisningsbilde {
   height: 100px;
   width: 100px;
+  border: outset rgb(37, 108, 240) 2px;
 }
