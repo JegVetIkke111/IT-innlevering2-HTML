@@ -111,17 +111,13 @@ margin: 0 auto;
 }
 
 a:link {
-  color: rgb(37, 108, 240);
-}
-
-a:visited {
   color: #f2f2f2;
 }
 
-a:hover {
-  color:red;
+a:visited {
+  color: rgb(37, 108, 240);
 }
 
-a:active {
-  color: red;
+a:hover {
+  color: rgb(37, 108, 240);
 }
