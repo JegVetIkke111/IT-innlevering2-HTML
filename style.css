@@ -108,3 +108,25 @@ background-color: rgba(0, 0, 0, 0.5);
 width: 97%;
 margin: 0 auto;
 }
+
+a:link {
+  color: rgb(37, 108, 240);;
+}
+
+a:visited {
+  color: #f2f2f2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
