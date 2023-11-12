@@ -127,3 +127,11 @@ margin: 0 auto;
   width: 700px;
   border: outset rgb(37, 108, 240) 2px;
 }
+
+.bunntekst {
+  padding-bottom: -10px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 0px;
+  font-size: 32px;
+}
