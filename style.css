@@ -138,5 +138,6 @@ margin: 0 auto;
   width: 97%;
   border: 4px solid rgb(37, 108, 240);; 
   border-bottom: none; 
+  border-style: inset;
 }
 
