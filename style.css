@@ -141,3 +141,10 @@ margin: 0 auto;
   border-style: inset;
 }
 
+#tekst1 {
+  float: left;
+}
+
+#bilde1 {
+  float:right;
+}
