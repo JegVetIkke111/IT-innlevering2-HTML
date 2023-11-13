@@ -87,7 +87,7 @@ font-size: 30px;
 line-height: 1.5;
 }
 
-.list_frame {
+.listframe {
 border-left: outset #f2f2f2 10px;
 
 }
@@ -131,9 +131,10 @@ margin: 0 auto;
 .bunntekst {
   padding-bottom: -10px;
 	padding-top: 10px;
-	text-align: center;
+	text-align: center !important;
 	bottom: 0px;
+  margin: 0 auto;
   font-size: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 97%;
-  margin: 0 auto; 
 }
