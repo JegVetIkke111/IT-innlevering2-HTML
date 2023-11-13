@@ -148,3 +148,11 @@ margin: 0 auto;
 #bilde1 {
   float:right;
 }
+
+#tekst2 {
+  float: right;
+}
+
+#bilde2 {
+  float: left;
+}
