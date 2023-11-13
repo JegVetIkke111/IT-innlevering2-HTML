@@ -124,7 +124,7 @@ margin: 0 auto;
 .fremvisningsbilde {
   height: 400px;
   width: 700px;
-  border: outset rgb(37, 108, 240) 4px;
+  border: outset rgb(37, 108, 240) 2px;
 }
 
 .bunntekst {
