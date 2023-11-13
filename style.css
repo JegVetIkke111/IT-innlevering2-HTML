@@ -89,7 +89,6 @@ line-height: 1.5;
 
 .listframe {
 border-left: outset #f2f2f2 10px;
-
 }
 
 li {
@@ -125,7 +124,7 @@ margin: 0 auto;
 .fremvisningsbilde {
   height: 400px;
   width: 700px;
-  border: outset rgb(37, 108, 240) 2px;
+  border: outset rgb(37, 108, 240) 4px;
 }
 
 .bunntekst {
@@ -137,4 +136,7 @@ margin: 0 auto;
   font-size: 32px;
   background-color: rgba(0, 0, 0, 0.5);
   width: 97%;
+  border: 4px solid rgb(37, 108, 240);; 
+  border-bottom: none; 
 }
+
