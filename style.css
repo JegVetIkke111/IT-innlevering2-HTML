@@ -82,7 +82,6 @@ font-size: 40px;
 
 p {
 font-size: 20px;
-text-align: left !important;
 font-size: 30px;
 line-height: 1.5;
 }
@@ -154,5 +153,9 @@ margin: 0 auto;
 }
 
 #bildetilvenstre {
+  float: left;
+}
+
+.venstre {
   float: left;
 }
