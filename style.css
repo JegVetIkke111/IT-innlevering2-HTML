@@ -99,6 +99,7 @@ font-family: 'Inconsolata', monospace;
 .list {
 margin: 0 auto; 
 width: 97%; 
+background-color: rgba(0, 0, 0, 0.5);
 }
 
 .tekstboks {
@@ -123,9 +124,7 @@ margin: 0 auto;
   height: 400px;
   width: 700px;
   border: outset rgb(37, 108, 240) 2px;
-  margin-left: 5px; /* Adjust the left margin as needed */
-  margin-bottom: 5px; /* Adjust the bottom margin as needed */
-  margin-right: 5px; /* Adjust the right margin as needed */
+  margin: 20px;
 }
 
 .bunntekst {
@@ -160,8 +159,4 @@ margin: 0 auto;
 
 .kildelink:hover {
   color: #f2f2f2;
-}
-
-.align-høyre {
-  text-align: right !important;
 }
