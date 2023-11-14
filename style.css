@@ -109,15 +109,15 @@ width: 97%;
 margin: 0 auto;
 }
 
-.listframe a:link {
+.listframe .kildelink a:link {
   color: rgb(37, 108, 240);
 }
 
-.listframe a:visited {
+.listframe .kildelink a:visited {
   color: rgb(37, 108, 240);
 }
 
-.listframe a:hover {
+.listframe .kildelink a:hover {
   color: #f2f2f2;
 }
 
