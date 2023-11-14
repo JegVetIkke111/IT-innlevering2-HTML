@@ -139,22 +139,22 @@ margin: 0 auto;
   border-style: inset;
 }
 
-#teksttilvenstre {
-  float: left;
-}
-
-#bildetilhøyre {
+.høyre {
   float: right;
-}
-
-#teksttilhøyre {
-  float: right;
-}
-
-#bildetilvenstre {
-  float: left;
 }
 
 .venstre {
   float: left;
+}
+
+.kildelink:link {
+  color: rgb(37, 108, 240);
+}
+
+.kildelink:visited {
+  color: rgb(37, 108, 240);
+}
+
+.kildelink:hover {
+  color: #f2f2f2;
 }
