@@ -143,8 +143,10 @@ margin: 0 auto;
 
 .left {
   float: left;
+  position: flex-start;
 }
 
 .right {
   float: right;
+  position: flex-start;
 }
