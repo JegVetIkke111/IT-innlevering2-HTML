@@ -123,6 +123,9 @@ margin: 0 auto;
   height: 400px;
   width: 700px;
   border: outset rgb(37, 108, 240) 2px;
+  margin-left: 5px; /* Adjust the left margin as needed */
+  margin-bottom: 5px; /* Adjust the bottom margin as needed */
+  margin-right: 5px; /* Adjust the right margin as needed */
 }
 
 .bunntekst {
