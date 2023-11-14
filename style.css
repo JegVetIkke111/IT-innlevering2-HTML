@@ -141,10 +141,18 @@ margin: 0 auto;
   border-style: inset;
 }
 
-.left {
+#tekst1 {
   float: left;
 }
 
-.right {
+#bilde1 {
+  float:right;
+}
+
+#tekst2 {
   float: right;
+}
+
+#bilde2 {
+  float: left;
 }
