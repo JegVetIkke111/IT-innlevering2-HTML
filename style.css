@@ -141,18 +141,18 @@ margin: 0 auto;
   border-style: inset;
 }
 
-#tekst1 {
+#teksttilvenstre {
   float: left;
 }
 
-#bilde1 {
+#bildetilhøyre {
   float: right;
 }
 
-#tekst2 {
+#teksttilhøyre {
   float: right;
 }
 
-#bilde2 {
+#bildetilvenstre {
   float: left;
 }
