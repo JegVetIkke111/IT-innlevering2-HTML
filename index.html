@@ -1,24 +1,38 @@
+<!-- Deklarerer dokumenttypen og versjonen av HTML som brukes (HTML5) -->
 <!DOCTYPE html>
+<!-- Angir språket for nettsiden (Norsk) og danner også roten av HTML-dokumentet-->
 <html lang="no">
+<!--Danner beholder for metadata-->
 <head>
+    <!-- Definerer tegnsettet for dokumentet -->
     <meta charset="UTF-8">
+    <!-- Bidrar til å gjøre nettsiden mer responsiv -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lenker til ekstern CSS-fil for styling -->
     <link rel="stylesheet" href="style.css">
+    <!-- Definerer ikonet som vises i nettlesertabben -->
     <link rel="icon" type="image/x-icon" href="https://media.discordapp.net/attachments/1158740468868325376/1164526915575611495/code_icon-icons.com_736201.png?ex=65438934&is=65311434&hm=040ffcdff77be5209c3099eff8b7332f2f5d885a27c8e85ce821c8bc18d3c5c2&=&width=600&height=600">
+    <!-- Lenker til Google Fonts for bruk av spesifikke skrifttyper -->
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <!-- Setter tittelen på nettsiden -->
     <title>HTML</title>
+<!--Slutter beholder for metadata-->
 </head>
+<!--Danner beholder for det synlige innholdet-->
 <body>
+    <!-- Navigasjonsmeny -->
     <div class="topnav">
         <a href="https://jegvetikke111.github.io/IT-innlevering2/">Hjem</a>
         <a href="https://jegvetikke111.github.io/IT-innlevering2-GitHub-og-VScode/">GitHub og VS Code</a>
         <a class="active" href="index.html">HTML</a>
         <a href="https://jegvetikke111.github.io/IT-innlevering2-CSS/">CSS</a>
     </div> 
+    <!-- Header med bakgrunnsbilde og overskrift -->
     <div>
         <img src="https://media.discordapp.net/attachments/778579694262026281/1164516315537604688/1b1f92bf7d89c843b3a449246c225ac6.png?ex=65437f55&is=65310a55&hm=faffa59408607a378eca9b2c2ae457cc1009c35e9afb4bdfae93829c0f3bdce0&=&width=703&height=468" class="bakgrunnsbilde">
         <h1 class="hovedtittel">HTML</h1>
     </div>
+    <!-- Liste med lenker til seksjoner på nettsiden -->
     <div class="list">
         <ul class="listframe">
             <p>På denne nettsiden finner du:</p>
@@ -34,30 +48,44 @@
             <br>
         </ul>
     </div>
+    <!-- Seksjon om "Hva er HTML?" -->
     <h1 id="hvaHTML" class="overskrift">Hva er HTML?</h1>
+    <!--Tekstboks som forklarer HTML og dets rolle -->
     <div class="tekstboks">
         <p>HTML står for HyperText Markup Language og er det standarde markeringsspråket for opprettelse av nettsider. Ved hjelp av markeringsspråket kan vi markere forskjellig innhold, slik som bilder, lister, tekst, bilder, osv, som beskriver strukturen og selveste “grunnmuren” til nettsiden, og fortelles til nettlesere slik at de vet hvordan de skal vise frem innholdet. Når man holder på med nettsider er alltid hoveddokumentet en HTML-fil, altså en fil med endelsen .html. Det er som sagt HTML som er det helt grunnleggende på nettsiden. Du kan ikke male huset ditt hvis du ikke har vegger (CSS) eller åpne og lukke dører om huset ditt ikke har det (JavaScript). </p>
     </div>
+    <!-- Seksjon om "Element" -->
     <h1 id="element" class="overskrift">Element</h1>
+    <!-- Tekstboks som forklarer HTML-elementer med et eksempel -->
     <div class="tekstboks">
         <p><img class="fremvisningsbilde høyre" src="https://media.discordapp.net/attachments/1158740468868325376/1169329618579374080/Skjermbilde_2023-10-30_141512.png?ex=65550212&is=65428d12&hm=9f2bb2518613acd0cbcf8dad1fb3338491d1e04eb380d495e257a914d3812bfd&=&width=622&height=407">HTML-dokumentet er bygd opp av en rekke elementer, som du bruker til å omslutte, eller pakke inn, ulike deler av innholdet for å få det til å se ut på en bestemt måte eller oppføre seg på en bestemt måte. Elementene skrives ved hjelp av tagger, som er veldig gjenkjenbare da de alltid har tegnene “&lt;” og “&gt;” rundt seg. Et element består alltid av en start-tagg, og noen ganger en slutt-tag. Her kan vi ta utgangspunkt i det eksempelet til høyre. Start-taggen består av navnet på elementet, som i dette eksempelet er p for “paragraph”, pakket inn i to vinkelparenteser på dette viset &lt;p&gt;. Dette forteller hvor elementet starter eller begynner å tre i kraft, som i dette tilfellet er hvor avsnittet starter. Slutt-taggen er lik start-taggen, bortsett fra at den også inkluderer en skråstrek før navnet på elementet, som i dette eksempelet ser slik ut: &lt;/p&gt;. Dette forteller hvor elementet slutter, som i dette tilfellet er hvor avsnittet slutter. Mellom de taggene finner vi innholdet, som her bare er tekst. Noen andre eksempler på elementer er heading-elementene, image-elementet, div-elementet og meta-elementet</p>
     </div>
+    <!-- Seksjon om "Attribute" -->
     <h1 class="overskrift" id="attribute">Attribute</h1>
+    <!-- Tekstboks som forklarer attributter med et eksempel -->
     <div class="tekstboks">
         <p><img class="fremvisningsbilde venstre" src="https://media.discordapp.net/attachments/1158740468868325376/1169329618310926437/Skjermbilde_2023-10-30_144715.png?ex=65550212&is=65428d12&hm=77cc52be813b7e3913f196208b0935afc41a56747a4cd371dc2e8a7257eb3e21&=&width=768&height=433">Alle elementer kan også ha såkalte “attributes” som inneholder ekstra informasjon om elementet som ikke vil faktisk vises i innholdet. Et eksempel på dette ser du på bildet til venstre. Her er “class” navnet på attributen og “hovedoverskrift” er verdien på attributen. Denne attributen er vanligvis brukt for å lage en selektor til bruk i CSS. Class-attributen gir nemlig elementet en ikke-unik identifikator, som gjør at hvis man bruker dette som en selektor, kan flere elementer benytte seg av det. Id-attributen er et annet eksempel, som gjør kun ett element om til en unik selektor. Det er også slik at attributer alltid blir spesifisert i start-taggen slik som i eksemplet. Samtidig er det noen attributer som ikke har noen verdi, slik som “required”. For de som inkluderer verdi må dette alltid legges til: Mellomrom mellom attributen og navnet på elementet eller forrige attribute hvis det er flere attributer, navnet på attributen med et er lik tegn etter på og attibutens verdi omsluttet av hermetegn. Noen andre eksempler på attributer er src-attributen, href-attributen og alt-attributen.</p>
     </div>
+    <!-- Seksjon om "Nesting" -->
     <h1 class="overskrift" id="nesting">Nesting</h1>
+    <!-- Tekstboks som forklarer "nesting" med et eksempel -->
     <div class="tekstboks">
         <p><img class="fremvisningsbilde høyre" src="https://media.discordapp.net/attachments/1158740468868325376/1169329618105421854/Skjermbilde_2023-10-30_180733.png?ex=65550212&is=65428d12&hm=5df133a0c191a8a6433ff03ad104e3354c9943dda65fb3b41ddd5cad85994a0f&=&width=688&height=425">Alle HTML-elementer kan bli såkalt “nested” og dette er noe alle HTML-dokumenter inneholder. “Nesting” betyr nemlig at man legger elementer inn i andre elementer. Her til høyre er et eksempel på dette. Her er b-elementet lagt inne hos innholdet til p-elementet for å skape fet skrift i avsnittet. Det er imidlertid viktig at dette gjøres riktig. De må nemlig åpnes og lukkes på en måte slik at de er på tydelig vis er på utsiden eller innsiden av hverandre. I eksempelet ovenfor begynte vi med en p-start-tagg som deretter fulgte en b-start-tagg. Dette gjør at man må legge til b-slutt-taggen først og deretter p-start-taggen. Logikken kan sammenlignes med at når man legger en mindre boks inn i en større boks, må man ha igjen den innerste boksen før den ytterste boksen. Som sagt, finnes dette i alle HTML-dokument. Det har seg nemlig slik at html-elementet er roten og definerer hele HTML-dokumentet. Alle andre elementer, bortsett fra &lt;!DOCTYPE html&gt; befinner seg mellom start-taggen og slutt-taggen til html-elementet.</p>
     </div>
+    <!-- Seksjon om "Void" -->
     <h1 class="overskrift" id="void">Void</h1>
+    <!-- Tekstbosk som forklarer "void elements" med et eksempel -->
     <div class="tekstboks">
         <p><img class="venstre fremvisningsbilde" src="https://media.discordapp.net/attachments/1158740468868325376/1169329617836982372/Skjermbilde_2023-10-30_185929.png?ex=65550211&is=65428d11&hm=0340cce142e047302549e5ed6ef463858d5061abb320c2308c079dd65dc8c7a4&=&width=803&height=420">Noen av elementene innenfor HTML betegnes som "void elements" på grunn av mangel på innhold eller avsluttende tagger. Et eksempel på dette er vist på bilde til venstre. Dette spesifikke eksemplet avbildet viser et img-element som inneholder to attributter, men mangler både en avsluttende tag og ethvert form for indre innhold. Årsaken til denne strukturen er at img-elementet ikke er utformet for å omslutte innhold med den hensikt å påvirke det. Snarere er dens hovedformål å integrere et bilde direkte i HTML-dokumentet, der det skal vises. Andre eksempler på void-elementer inkluderer meta-elementet, br-elementet og source-elementet. Disse elementene deler den karakteristiske egenskapen av å ikke inkludere annet innhold enn deres egne attributter, og de har ikke en avsluttende tag. Denne egenskapen gjør dem særlig hensiktsmessige for spesifikke formål, for eksempel å definere metadata, legge til linjeskift, eller angi kilder for multimediafiler.</p>
     </div>
+    <!--Bunntekst med to lenker til kildekode-->
     <div>
         <p class="bunntekst">Laget av Christina | Her finner du <a class="kildelink" href="https://raw.githubusercontent.com/JegVetIkke111/IT-innlevering2-HTML/main/index.html" target="_blank">HTML</a> og <a class="kildelink" href="https://raw.githubusercontent.com/JegVetIkke111/IT-innlevering2-HTML/main/style.css" target="_blank">CSS</a> til nettsiden</p>
     </div>
+<!--Slutter beholder for det synlige innholdet-->
 </body>
+<!--Her slutter dokumentet-->
 </html>
+
 
 
