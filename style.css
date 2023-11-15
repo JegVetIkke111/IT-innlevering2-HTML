@@ -19,7 +19,7 @@
   text-align: center; /* Sentrerer teksten horisontalt innenfor elementet */
   padding: 14px 16px; /* Inneholder padding for topp/bunn og venstre/høyre */
   text-decoration: none; /* Fjerner understreking og lignende for lenker */
-  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' som skrifttype og generell monospace er fallback font */
   font-size: 20px; /* Størrelsen på teksten */
   letter-spacing: 1.5px; /* Avstanden mellom bokstavene */
 }
@@ -52,6 +52,8 @@
 body {
   background-color: rgb(5, 15, 27); /* Bakgrunnsfargen til nettsiden */
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px); /*Legger til striper i bakgrunnen*/
+  margin: 0; /* Setter margin til 0 for body-elementet */
+  padding: 0; /* Setter padding til 0 for body-elementet */
 }
 
 /* Hovedtittel-stilen brukes på den ene og viktigste overskriften på siden */
@@ -62,7 +64,7 @@ body {
   top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
   left: 50%; /* Plasserer venstre side av elementet 50% fra venstre side av overordnet element */
   transform: translate(-50%, -50%); /* Senterer elementet både horisontalt og vertikalt */
-  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' som skrifttype og generell monospace er fallback font */
   white-space: nowrap; /* Forhindrer at teksten brytes over flere linjer */
   padding: 10px; /* Skaper padding rundt hele elementet */
 }
@@ -102,7 +104,7 @@ li {
   text-align: left; /* Venstrejustering av teksten innenfor listeelementer */
   color: white; /* Tekstfargen */
   font-size: 28px; /* Størrelsen på teksten */
-  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' som skrifttype og generell monospace er fallback font */
 }
 
 /* List-stilen brukes på elementer med klasse "list" */
